@@ -1,0 +1,26 @@
+
+```plaintext
+streamlit==1.12.2
+yfinance==0.2.9
+pandas==1.5.3
+numpy==1.24.2
+matplotlib==3.7.1
+scikit-learn==1.2.2
+tensorflow==2.12.0
+keras==2.12.0
+```
+
+To use this, follow these steps:
+
+1. Open a text editor (such as Notepad, VS Code, or any other you prefer).
+2. Copy the above text.
+3. Paste the text into the editor.
+4. Save the file with the name `requirements.txt` in the root directory of your project.
+
+Then, you can install all the required packages by running the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will ensure that all the necessary dependencies for the project are installed with the specified versions.
