@@ -1,0 +1,45 @@
+tensorflow     -  choose neural network
+YFinance      - stock data
+Matpotlib    - graphical charts presentation
+Numpy         \    - basic lib to work on data in ML model
+Pandas         /
+Streamlit     - deploys model as web app
+
+=>
+data=yh.download(stock_symbol, start_date, end_date)    -   fetches data from yahoo finance
+"volume"  in data = no of shares changed from sellers to buyers
+
+=>
+moving-average (ma) - based on last 10 days data predicts 11nth day data
+
+"ma_100_days" = data.Close.rolling(100).mean()    -->  creates a dataframe in which 100th index stores mean value of 1st to 100th element
+                                                                                                                            -//-                      101th                       -//-                     2nd to 101th element
+
+similarly we took "ma_200_days" 
+
+=>
+dropna()  -->  drops rows having any null value
+
+=>
+divide data into training(80%) and test data(remaining 20%)
+
+=>
+shape train data to (0,1) value    using "MinMaxScaler"
+
+=>
+array slicing using for-loop on scaled train data range(100:length)
+making 2 array x, y to store x[1:100]  and y[100]
+
+=>
+- units = 50/units = 60  ->means creating neurons to wach and every model
+- such that we created 4 layers  with diff neurons                                                                   
+- return_sequences = True   -> means output of previous layer to next layer
+
+=> 
+input_shape
+
+=> 
+dropout (0.2) -> means dont take all training data take few actual data
+
+=> 
+epochs=50 -> means 50 times model will be pushed from start to end
