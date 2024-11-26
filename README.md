@@ -1,5 +1,9 @@
 # Stock Market Predictor
 
+## Streamlit FrontEnd UI
+
+![screencapture-localhost-8501-2024-11-26-10_30_53](https://github.com/user-attachments/assets/951915a6-da19-4896-8827-72c2cd01904f)
+
 ## Overview
 
 The Stock Market Predictor is an advanced tool designed to predict stock prices using Long Short-Term Memory (LSTM) models and provide an intuitive user interface for real-time stock market analysis. The application integrates historical stock data, moving averages, Fibonacci retracement levels, and real-time news updates to offer a comprehensive solution for investors and traders.
